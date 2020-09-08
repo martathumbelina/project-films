@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+    <body>
+    <p id="wszystkie"> </p>
+    <p id="widoczne">  </p>   
+    <div id="out"></div>
+   
+        <br>
+
+    <div id="tags"></div>
+
+   
+
+    <p id="dodaj"></p>
+    <form name="form-film" id="form" onsubmit="return validateForm()" method="post"> 
+        <input name="tytuł" placeholder="tytuł" type="text" id="inputTytul"required> 
+        <input name="rok"placeholder="rok" id="inputRok" required> 
+        <button onclick="pushData();">Wyślij</button>
+        
+        
+        
+    </form>
+      
+    <script src=main.js></script>
+
+</body>
+
+</html>
